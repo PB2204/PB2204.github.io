@@ -1,31 +1,766 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pabitra's Portfolio</title>
-    <link rel="icon" href="pabi22.png" type="image/png"/>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <title>Pabitra Banerjee</title>
+    <meta name="author" content="Pabitra Banerjee">
+    <meta name="description"
+        content="Pabitra Banerjee is a Full-Stack Web Developer, AI Engineer, Cybersecurity Expert and Software Engineer with a focus on creating efficient and simple solutions based in Manbazar, Purulia.">
+    <meta name="keywords"
+        content="pabitra banerjee, pabitra, banerjee, polarity, polarity browser, polarity web browser, echo, cirrus css, nimbus, echo chat, echo messenger, polarity search, polarity weather, phlee, phlee proxy, polarity stanley lim, polarity forums, web browser, bomb the castle, cryptable" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@FossilianBhed">
+    <meta name="twitter:creator" content="Pabitra Banerjee">
+    <meta name="twitter:title" content="Pabitra Banerjee">
+    <meta name="twitter:description"
+        content="Full-Stack Web Developer & AI-ML Enthusiast With Some Knowledge Of Block-Chain Technology. A Very Ordinary Man Who Knows To Interact With The Dumb Computers.">
+    <meta name="twitter:image:src" content="/img/logo-big.png">
+
+    <meta property="og:url" content="https://pabitrabanerjee.me/">
+    <meta property="og:type" content="portfolio">
+    <meta property="og:title" content="Pabitra Banerjee">
+    <meta property="og:image" content="/img/logo-big.png" />
+    <meta property="og:description"
+        content="Full-Stack Web Developer & AI-ML Enthusiast With Some Knowledge Of Block-Chain Technology. A Very Ordinary Man Who Knows To Interact With The Dumb Computers.">
+    <meta property="og:site_name" content="Pabitra Banerjee">
+    <meta property="portfolio:publisher" content="https://pabitrabanerjee.me/">
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/meta/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/meta/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/meta/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/meta/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/meta/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/meta/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/meta/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/meta/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/meta/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/img/meta/favicon.ico">
+    <meta name="msapplication-TileColor" content="##73c66">
+    <meta name="msapplication-TileImage" content="/img/meta/apple-touch-icon-72x72.png">
+    <meta name="msapplication-TileImage" content="/img/meta/apple-touch-icon-144x144.png">
+    <meta name="theme-color" content="#173c66">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- CSS -->
+    <link href="styles/dist/cirrus.min.css" type="text/css" rel="stylesheet">
+    <link href="styles/dist/app.min.css" type="text/css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/a696b91557.js"></script>
+
+    <script src="dist/smoothscroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
 </head>
 
 <body>
-    <main class="container">
-        <h1>All Of My Projects</h1>
-        <small>Some Useful, Some Stupid, All Fun!</small>
-        <section class="intro">
-            <div class="user-info"></div>
+
+    <!-- Loading Screen -->
+    <div id="loader-wrapper">
+        <div id="loader" class="center-alt"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+
+
+    <a href="//www.dmca.com/Protection/Status.aspx?ID=6be36420-3b88-4f2b-897e-a9a9da2f393d"
+        title="DMCA.com Protection Status" class="dmca-badge"> <img
+            src="https://images.dmca.com/Badges/dmca-badge-w100-5x1-10.png?ID=6be36420-3b88-4f2b-897e-a9a9da2f393d"
+            alt="DMCA.com Protection Status" /></a>
+    <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+
+    <div id="header" class="header header-fixed unselectable">
+        <div class="header-left">
+            <div class="header-item no-hover">
+                <a href="#landing" class="smoothScroll">
+                    <h5 class="light">Pabitra Banerjee</h5>
+                </a>
+            </div>
+        </div>
+        <div class="header-center">
+
+        </div>
+        <div class="header-item header-btn" id="header-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+
+        <div class="header-right header-menu nav-animated" id="header-menu">
+            <div class="header-item btn-tooltip tooltip-bottom" data-tooltip="Resume">
+                <a href="#" target="_blank">
+                    <div class="link-btn icon"><i class="fa fa-file-text-o" aria-hidden="true"></i></div>
+                </a>
+            </div>
+            <div class="header-item btn-tooltip tooltip-bottom" data-tooltip="About" id="headerAbout">
+                <a data-easing="easeInQuad" href="#about" class="smoothScroll">
+                    <div class="link-btn icon"><i class="fa fa-hand-spock-o" aria-hidden="true"></i></div>
+                </a>
+            </div>
+            <div class="header-item btn-tooltip tooltip-bottom" data-tooltip="Background" id="headerBackground">
+                <a href="#background" class="smoothScroll">
+                    <div class="link-btn icon"><i class="fa fa-terminal" aria-hidden="true"></i></div>
+                </a>
+            </div>
+            <div class="header-item btn-tooltip tooltip-bottom" data-tooltip="Projects" id="headerProjects">
+                <a data-scroll href="#projects" class="smoothScroll">
+                    <div class="link-btn icon"><i class="fa fa-code" aria-hidden="true"></i></div>
+                </a>
+            </div>
+            <div class="header-item btn-tooltip tooltip-bottom" data-tooltip="Contact" id="headerContact">
+                <a href="#contact" class="smoothScroll">
+                    <div class="link-btn icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <section id="landing" class="hero fullscreen">
+        <img id="landingBg" class="hero-img img-cover landingbg" src="./img/landing.jpg" />
+        <div class="hero-body">
+            <div class="content text-center" id="landingContainer">
+                <img id="logo" src="./img/logo-big.png" alt="logo" />
+                <div id="landingText">
+                    <h6 class="light"><a class="u u-LR" target="_blank"
+                            href="https://pabitrabanerjee.newsgoogle.org">Pabitra Banerjee</a>. Student By Day,
+                        Developer By Night.</h6>
+                </div>
+            </div>
+        </div>
+        <div class="row bottom-text">
+            <div class="bottom-text-gradient"></div>
+            <div class="col-4 text-center">
+                <p>
+                <div class="row fluid-container" id="socialLinks">
+                    <div class="col-fluid"><a class="btn-link" id="github" target="_blank"
+                            href="https://github.com/PB2204"><span class="icon"><i class="fa fa-github"></i></span></a>
+                    </div>
+                    <div class="col-fluid"><a class="btn-link" id="linkedin" target="_blank"
+                            href="https://www.linkedin.com/in/pabitra-banerjee"><span class="icon"><i
+                                    class="fa fa-linkedin"></i></span></a></div>
+                    <div class="col-fluid"><a class="btn-link" id="twitter" target="_blank"
+                            href="https://twitter.com/FossilianBhed"><span class="icon"><i
+                                    class="fa fa-twitter"></i></span></a></div>
+                    <div class="col-fluid"><a class="btn-link" id="facebook" target="_blank"
+                            href="https://facebook.com/Journalist.Pabitra.Banerjee"><span class="icon"><i
+                                    class="fa fa-facebook"></i></span></a>
+                    </div>
+                    <div class="col-fluid"><a class="btn-link" id="instagram" target="_blank"
+                            href="https://www.instagram.com/coderpabitra/"><span class="icon"><i
+                                    class="fa fa-instagram"></i></span></a></div>
+                </div>
+                </p>
+            </div>
+            <div class="col-8 text-right">
+                <p><a href="#about" class="smoothScroll"><span class="bold"><span class="icon"><i
+                                    class="fa fa-chevron-down small"></i></span></span><span class="hide-mobile"><span
+                                class="bold">Scroll</span> down to continue.</span></a></p>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <!-- About -->
+        <section id="about" class="padded">
+            <div class="content">
+                <div class="row level">
+                    <div class="col-4">
+                        <div id="avatar" class="avatar">
+                            <img src="img/avatar.jpg" />
+                        </div>
+                        <p class="text-center info">Photo credits to <a href="https://www.instagram.com/sayan_chand07/"
+                                target="_blank">Sayan Chand</a>.</p>
+                    </div>
+                    <div class="col-8">
+                        <div class="content">
+                            <h3>About</h3>
+                            <div class="divider divider-short"></div>
+                            <p>Currently a computer science student, and a teaching guide at Code Explorer, where I try
+                                to help peoples to study Computer Science.</p>
+                            <p>My main interests include Cloud Technology, Distributed Systems, and Cyber Security. On
+                                the
+                                side, I also study about UI/UX and build Full-Stack Web Applications.</p>
+                            <p>I also love traveling, writing, and spending hours crafting new music.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section class="repos">
-            <input type="text" class="filter-repos hide" placeholder="Search Projects" />
-            <ul class="repo-list"></ul>
+        <!-- Background -->
+        <section id="background" class="clearfix">
+            <div class="row">
+                <div class="fill-height fill-width" id="backgroundTitle">
+                    <div class="vertical-align-middle">
+                        <div class="content text-center">
+                            <h3>Background</h3>
+                            <p>The things I work with.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-right padded">
+                    <div class="content">
+                        <p>I love to learn and work with new frameworks and languages. In the past, I have worked on
+                            projects that explored the functionality of operating system specific applications to web
+                            frameworks. You can view some of my works here or head over to my <a class="u u-LR"
+                                href="https://www.linkedin.com/in/pabitra-banerjee">LinkedIn</a> & <a class="u u-LR"
+                                href="https://www.linkedin.com/in/PB2204">Github</a> profile.</p>
+
+                        <p>Below are some of the languages that I enjoy using for developing web apps.</p>
+                        <div class="row">
+                            <h6 class="text-center white">Web Development</h6>
+                            <canvas id="webChart"></canvas>
+                        </div>
+                        <space class="x-large"></space>
+                        <p>Below are the languages I use for general software development and testing out ideas.</p>
+                        <div class="row">
+                            <h6 class="text-center white">General Programming</h6>
+                            <canvas id="programmingChart"></canvas>
+                        </div>
+                        <space class="x-large"></space>
+                        <p>As for graphics, I design a lot of the icons and splash images for my applications.</p>
+
+                        <div class="row">
+                            <canvas id="graphicsChart"></canvas>
+                        </div>
+                        <space class="x-large"></space>
+
+                        <p>Below are some other things that you might want to know.</p>
+                        <div class="row">
+                            <h6 class="text-center white">Miscellaneous</h6>
+                            <canvas id="miscChart"></canvas>
+                        </div>
+                        <space class="x-large"></space>
+                        <space class="x-large"></space>
+                        <div class="row" id="stats">
+                            <div class="col-4 ignore-screen">
+                                <h1 class="white" id="statsProjects">0</h1>
+                                <h6 class="white light">projects completed</h6>
+                            </div>
+                            <div class="col-4 ignore-screen">
+                                <h1 class="white" id="statsTea">0</h1>
+                                <h6 class="white light">cups of tea drank</h6>
+                            </div>
+                            <div class="col-4 ignore-screen">
+                                <h1 class="white" id="statsTrain">0</h1>
+                                <h6 class="white light">hours of coding on the train</h6>
+                            </div>
+                        </div>
+                        <p class="text-center no-margin">My background in more detail.</p>
+                        <div class="row center">
+                            <a href="/resume" target="_blank"><button
+                                    class="resume-btn"><span>Resume</span></button></a>
+                        </div>
+                    </div> <!-- content -->
+                </div>
+            </div>
         </section>
-        <h4>Developed By :: <a href="https://pabitrabanerjee.newsgoogle.org">Pabitra Banerjee</a></h4>
-    </main>
+
+        <section id="projects" class="padded">
+            <div class="content">
+                <h3 class="text-center">Some of my Works</h3>
+                <div class="center divider divider-short"></div>
+                <p class="text-center">Below are just a few of the major projects that I have worked on in the past. I
+                    have worked with a wide range of applications ranging from AI-ML Projects to Games to browser
+                    extensions to IDE Tools to New Programming Language to library/package for popular programming
+                    languages like Python and JavaScript to fully
+                    responsive Web Applications.</p>
+                <p class="text-center info">Tap or hover over projects below to view more detail.</p>
+                <space class="x-large"></space>
+            </div>
+            <div class="project-container">
+                <div class="row no-padding">
+                    <div class="col-12 no-padding no-margin">
+                        <article class="project-item">
+                            <figure style="background-image: url('./img/intersteller-armada.png');"></figure>
+                            <div class="caption" id="polarity">
+                                <div class="text-container">
+                                    <p class="category win32">Javascript</p>
+                                    <p class="category android">Game</p>
+                                    <p class="category web">WebGL</p>
+                                    <a href="https://pabitrabanerjee.me/Interstellar-Armada/" class="u u-LR"
+                                        target="_blank">
+                                        <h4 class="uppercase white">&gt; Interstellar Armada</h4>
+                                    </a>
+                                    <p>Interstellar Armada: Galactic Ace is a free, Open Source browser-based 3D space
+                                        combat simulator developed in JavaScript-WebGL by Pabitra Banerjee.</p>
+                                    <div class="row no-padding" id="platforms">
+                                        <div class="col-fluid ignore-screen">
+                                            <span class="icon white"><i class="fa fa-windows"></i></span>
+                                        </div>
+                                        <div class="col-fluid ignore-screen">
+                                            <span class="icon white"><i class="fa fa-android"></i></span>
+                                        </div>
+                                        <div class="col-fluid ignore-screen">
+                                            <span class="icon white"><i class="fa fa-linux"></i></span>
+                                        </div>
+                                    </div>
+                                </div> <!-- text-container -->
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="row no-padding">
+                    <div class="col-5 no-padding no-margin">
+                        <article class="project-item">
+                            <figure style="background-image: url('./img/sunday.png');"></figure>
+                            <div class="caption white" id="weather">
+                                <div class="text-container">
+                                    <p class="category chrome">Chrome</p>
+                                    <p class="category web">Web</p>
+                                    <p class="category rest">REST</p>
+                                    <a href="https://sunday-inky.vercel.app/" class="u u-LR" target="_blank">
+                                        <h4 class="uppercase white">&gt; Sunday</h4>
+                                    </a>
+                                    <p>A responsive chatbot app for Chrome and the web built with RESTful API calls to
+                                        wikipedia's APIs.</p>
+                                    <div class="row no-padding" id="platforms">
+                                        <div class="col-fluid ignore-screen">
+                                            <span class="icon white"><i class="fa fa-chrome"></i></span>
+                                        </div>
+                                        <div class="col-fluid ignore-screen">
+                                            <span class="icon white"><i class="fa fa-globe"></i></span>
+                                        </div>
+                                    </div>
+                                </div> <!-- text-container -->
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-7 no-padding no-margin">
+                        <article class="project-item">
+                            <figure style="background-image: url('img/stack-overflow.png');">
+                            </figure>
+                            <div class="caption white" id="smores">
+                                <div class="text-container">
+                                    <p class="category typescript">Front-End</p>
+                                    <p class="category elastic">Web</p>
+                                    <a href="https://pabitrabanerjee.me/Stack-OverFlow/" class="u u-LR" target="_blank">
+                                        <h4 class="uppercase white">&gt; Stack-Overflow</h4>
+                                    </a>
+                                    <p>I developed the frontend of Stack Overflow using HTML, CSS, and JavaScript. It
+                                        features a responsive design, interactive elements, and a user-friendly
+                                        interface for an enhanced coding community experience.</p>
+                                    <div class="row no-padding" id="platforms">
+                                        <div class="col-fluid ignore-screen">
+                                            <span class="icon white"><i class="fa fa-globe"></i></span>
+                                        </div>
+                                    </div>
+                                </div> <!-- text-container -->
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="row no-padding">
+                    <div class="col-12 no-padding no-margin">
+                        <article class="project-item">
+                            <figure style="background-image: url('./img/pyconda-website.jpg');"></figure>
+                            <div class="caption white" id="cirrus">
+                                <div class="text-container">
+                                    <p class="category web">Pyconda</p>
+                                    <p class="category css">Python</p>
+                                    <p class="category framework">New Programming Language</p>
+                                    <a href="https://pyconda.pabitrabanerjee.me/" class="u u-LR" target="_blank">
+                                        <h4 class="uppercase white">&gt; Cirrus</h4>
+                                    </a>
+                                    <p>PyConda is a simple, Python-based programming language designed for ease of use
+                                        and extensibility. With PyConda, you can write and execute code in a
+                                        straightforward and intuitive manner.</p>
+                                    <div class="row no-padding" id="platforms">
+                                        <div class="col-fluid ignore-screen">
+                                            <span class="icon white"><i class="fa fa-globe"></i></span>
+                                        </div>
+                                    </div>
+                                </div> <!-- text-container -->
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="row no-padding">
+                    <div class="col-4 no-padding no-margin">
+                        <article class="project-item">
+                            <figure style="background-image: url('./img/free-vpn-finder.png');"></figure>
+                            <div class="caption white" id="min">
+                                <div class="text-container">
+                                    <p class="category chrome">Microsoft Edge</p>
+                                    <a href="https://microsoftedge.microsoft.com/addons/detail/free-vpn-server-finder/fkbjnmkkgoelcbbaiabaihimjpfbifkp"
+                                        class="u u-LR" target="_blank">
+                                        <h4 class="uppercase white">&gt; Free VPN Finder</h4>
+                                    </a>
+                                    <p>I developed a Free VPN Finder extension for Microsoft Edge using JavaScript,
+                                        HTML, and CSS. It utilizes APIs for VPN services, providing users with seamless
+                                        and secure VPN options directly in their browser.</p>
+                                    <div class="row no-padding" id="platforms">
+                                        <div class="col-fluid ignore-screen">
+                                            <span class="icon white"><i class="fa fa-edge"></i></span>
+                                        </div>
+                                    </div>
+                                </div> <!-- text-container -->
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-4 no-padding no-margin">
+                        <article class="project-item">
+                            <figure style="background-image: url('./img/idx-dark-theme.png');"></figure>
+                            <div class="caption white" id="echo">
+                                <div class="text-container">
+                                    <p class="category chrome">VS CODE</p>
+                                    <p class="category web">IDE Theme</p>
+                                    <p class="category node">Extension</p>
+                                    <a href="https://marketplace.visualstudio.com/items?itemName=PabitraBanerjee.idx-dark-theme" class="u u-LR" target="_blank">
+                                        <h4 class="uppercase white">&gt; Echo</h4>
+                                    </a>
+                                    <p>Idx Dark Theme is a stunning dark theme for Visual Studio Code, inspired by
+                                        Google's IDX design. With vibrant colors and thoughtful design, it enhances
+                                        coding, boasting 2.8k downloads.</p>
+                                    <div class="row no-padding" id="platforms">
+                                        <div class="col-fluid ignore-screen">
+                                            <span class="icon white"><i class="fa fa-linux"></i></span>
+                                        </div>
+                                        <div class="col-fluid ignore-screen">
+                                            <span class="icon white"><i class="fa fa-windows"></i></span>
+                                        </div>
+                                        <div class="col-fluid ignore-screen">
+                                            <span class="icon white"><i class="fa fa-globe"></i></span>
+                                        </div>
+                                    </div>
+                                </div> <!-- text-container -->
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-4 no-padding no-margin">
+                        <article class="project-item">
+                            <figure style="background-image: url('./img/carbon-atom.png');"></figure>
+                            <div class="caption white" id="meme">
+                                <div class="text-container">
+                                    <p class="category web">Web</p>
+                                    <p class="category go">Chemistry</p>
+                                    <a href="https://pabitrabanerjee.me/Structure-Of-Carbon-Atom/" class="u u-LR"
+                                        target="_blank">
+                                        <h4 class="uppercase white">&gt; Carbon Atom Structure</h4>
+                                    </a>
+                                    <p>This web view showcases the structure of a carbon atom, using HTML, CSS, and
+                                        JavaScript. It visually represents atomic components, offering an educational
+                                        and interactive experience for users.</p>
+                                    <div class="col-fluid ignore-screen">
+                                        <span class="icon white"><i class="fa fa-globe"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="row no-padding">
+                    <div class="col-7 no-padding no-margin">
+                        <article class="project-item">
+                            <figure style="background-image: url('img/web-browser.png');">
+                            </figure>
+                            <div class="caption white" id="nimbus">
+                                <div class="text-container">
+                                    <p class="category web">Web</p>
+                                    <p class="category node">NodeJs</p>
+                                    <a href="https://pb2204.github.io/Web-Browser/" class="u u-LR" target="_blank">
+                                        <h4 class="uppercase white">&gt; Web Browser</h4>
+                                    </a>
+                                    <p>I created a beautiful and fully functional web browser using HTML, CSS, and
+                                        JavaScript. It boasts a sleek design, seamless navigation, and essential
+                                        browsing features for an optimal user experience.</p>
+                                    <div class="row no-padding" id="platforms">
+                                        <div class="col-fluid ignore-screen">
+                                            <span class="icon white"><i class="fa fa-globe"></i></span>
+                                        </div>
+                                        <div class="col-fluid ignore-screen">
+                                            <span class="icon white"><i class="fa fa-chrome"
+                                                    aria-hidden="true"></i></span>
+                                        </div>
+                                        <div class="col-fluid ignore-screen">
+                                            <span class="icon white"><i class="fa fa-linux"></i></span>
+                                        </div>
+                                    </div>
+                                </div> <!-- text-container -->
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-5 no-padding no-margin">
+                        <article class="project-item">
+                            <figure style="background-image: url('./img/clash-of-space.png');"></figure>
+                            <div class="caption white" id="material">
+                                <div class="text-container">
+                                    <p class="category chrome">Chrome</p>
+                                    <p class="category theme">Game</p>
+                                    <a href="https://pabitrabanerjee.me/Clash-Of-Space/" class="u u-LR" target="_blank">
+                                        <h4 class="uppercase white">&gt; Clash Of Space</h4>
+                                    </a>
+                                    <p>Clash of Space is a cloned version game of the original Radius Raid of js13kGames
+                                        (A JavaScript coding competition for HTML5 Game Developers) which is a popular
+                                        game for kids. A space craft shooting game built with HTML5, CSS, JavaScript.
+                                        It's a desktop version game, so can be played only in desktop/laptop.</p>
+                                    <div class="row no-padding" id="platforms">
+                                        <div class="col-fluid ignore-screen">
+                                            <span class="icon white"><i class="fa fa-chrome"></i></span>
+                                        </div>
+                                        <div class="col-fluid ignore-screen">
+                                            <span class="icon white"><i class="fa fa-globe"></i></span>
+                                        </div>
+                                        <div class="col-fluid ignore-screen">
+                                            <span class="icon white"><i class="fa fa-linux"></i></span>
+                                        </div>
+                                    </div>
+                                </div> <!-- text-container -->
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div> <!-- project-container -->
+        </section>
+
+        <section id="contact" class="clearfix">
+            <div class="row no-padding">
+                <div class="fill-height fill-width" id="contactTitle">
+                    <div class="vertical-align-middle">
+                        <div class="content text-center">
+                            <h3 class="white">Let's Talk</h3>
+                            <div class="divider divider-short center"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-right padded">
+                    <div class="content">
+                        <div class="row">
+                            <p>If you're looking to collaborate on awesome projects or looking for a kickass developer,
+                                feel free to drop me a line.</p>
+
+                            <div class="level"><img class="logo" src="./img/logo-big.png" />
+                                <h5>&nbsp;Pabitra Banerjee</h5>
+                            </div>
+                            <p class="description">Freelance Web / Software Developer</p>
+                            <span><a
+                                    href="mailto:rockstarpabitra2204@gmail.com">rockstarpabitra2204@gmail.com</a></span>
+                            <space class="x-large"></space>
+                        </div>
+
+                        <div class="row fluid-container" id="socialLinks">
+                            <div class="col-fluid ignore-screen"><a class="btn-link" id="github" target="_blank"
+                                    href="https://github.com/PB2204"><span class="icon"><i class="fa fa-github"
+                                            aria-hidden="true"></i></span></a></div>
+                            <div class="col-fluid ignore-screen"><a class="btn-link" id="linkedin" target="_blank"
+                                    href="https://www.linkedin.com/in/pabitra-banerjee"><span class="icon"><i
+                                            class="fa fa-linkedin" aria-hidden="true"></i></span></a></div>
+                            <div class="col-fluid ignore-screen"><a class="btn-link" id="twitter" target="_blank"
+                                    href="https://twitter.com/FossilianBhed"><span class="icon"><i class="fa fa-twitter"
+                                            aria-hidden="true"></i></span></a></div>
+                            <div class="col-fluid ignore-screen"><a class="btn-link" id="facebook" target="_blank"
+                                    href="https://facebook.com/Journalist.Pabitra.Banerjee"><span class="icon"><i
+                                            class="fa fa-facebook" aria-hidden="true"></i></span></a></div>
+                            <div class="col-fluid ignore-screen"><a class="btn-link" id="instagram" target="_blank"
+                                    href="https://www.instagram.com/coderpabitra/"><span class="icon"><i
+                                            class="fa fa-instagram" aria-hidden="true"></i></span></a></div>
+                            <div class="col-fluid ignore-screen"><a class="btn-link" id="spotify" target="_blank"
+                                    href="https://open.spotify.com/artist/3IVD6HwQz8KIx3tqRexpqB"><span class="icon"><i
+                                            class="fa fa-spotify" aria-hidden="true"></i></span></a></div>
+                            <div class="col-fluid ignore-screen"><a class="btn-link" id="soundcloud" target="_blank"
+                                    href="https://soundcloud.com/pabitrabanerjee"><span class="icon"><i
+                                            class="fa fa-soundcloud" aria-hidden="true"></i></span></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="padded">
+            <h6 class="white uppercase text-center">&lt;/Pabitra&gt;</h6>
+            <div class="content">
+                <div class="divider"></div>
+                <p>Made With <i class="fa fa-heart animated pulse" aria-hidden="true"></i> By : <a
+                        href="http://pabitrabanerjee.me" class="u utb-C" target="_blank">Pabitra Banerjee</a> ||
+                    Distributed By : <a class="u utb-C" href="https://mbwebbers.tech">MB WEBBER'S</a></p>
+                <p>&copy;
+                    <script type="text/javascript">document.write(new Date().getFullYear());</script> Pabitra Banerjee
+                </p>
+                <p><i>You must understand the whole of life, not just one little part of it. That is why you must read,
+                        that is why you must look at the skies, that is why you must sing, and dance, and write poems,
+                        and suffer, and understand, for all that is life.</i> — Jiddu Krishnamurti</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Begin Chars -->
+    <script>
+        var ctx = document.getElementById('webChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                labels: ['HTML', 'CSS/Sass', 'JavaScript', 'TypeScript', 'Node.js', 'Express.js', 'React', 'Vue'],
+                datasets: [{
+                    label: 'Level',
+                    data: [9, 9, 7, 4, 7, 5, 7, 3],
+                    backgroundColor: '#e99f3e',
+                    borderColor: '#e99f3e',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                animation: {
+                    duration: 3000,
+                    easing: 'easeInQuad'
+                },
+                scales: {
+                    xAxes: [{
+                        ticks: {
+                            min: 0,
+                            max: 10,
+                            beginAtZero: true
+                        },
+                        gridLines: {
+                            color: 'rgba(233, 159, 62, 0.3)'
+                        }
+                    }]
+                },
+            }
+        });
+    </script>
+
+    <script>
+        var ctx = document.getElementById('programmingChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                labels: ['Python', 'C++', 'Dart', 'C#', 'Go', 'C', 'Bash', 'MIPS Assembly'],
+                datasets: [{
+                    label: 'Level',
+                    data: [9, 7, 5, 6, 3, 4, 5, 6],
+                    backgroundColor: '#e99f3e',
+                    borderColor: '#e99f3e',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                animation: {
+                    duration: 3000,
+                    easing: 'easeInQuad'
+                },
+                scales: {
+                    xAxes: [{
+                        ticks: {
+                            min: 0,
+                            max: 10,
+                            beginAtZero: true
+                        },
+                        gridLines: {
+                            color: 'rgba(233, 159, 62, 0.3)'
+                        }
+                    }]
+                }
+            }
+        });
+    </script>
+
+    <script>
+        var ctx = document.getElementById('miscChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                labels: ['Cyber Security', 'Distributed Systems', 'AI-ML', 'Writing', 'Music Production'],
+                datasets: [{
+                    label: 'Level',
+                    data: [6, 4, 7, 8, 9],
+                    backgroundColor: '#e99f3e',
+                    borderColor: '#e99f3e',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                animation: {
+                    duration: 3000,
+                    easing: 'easeInQuad'
+                },
+                scales: {
+                    xAxes: [{
+                        ticks: {
+                            min: 0,
+                            max: 10,
+                            beginAtZero: true
+                        },
+                        gridLines: {
+                            color: 'rgba(233, 159, 62, 0.3)'
+                        }
+                    }]
+                }
+            }
+        });
+    </script>
+
+    <script>
+        var ctx = document.getElementById('graphicsChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                labels: ['Photoshop', 'Illustrator', 'Canva', 'Figma'],
+                datasets: [{
+                    label: 'Level',
+                    data: [5, 3, 7, 6],
+                    backgroundColor: '#e99f3e',
+                    borderColor: '#e99f3e',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                animation: {
+                    duration: 3000,
+                    easing: 'easeInQuad'
+                },
+                scales: {
+                    xAxes: [{
+                        ticks: {
+                            min: 0,
+                            max: 10,
+                            beginAtZero: true
+                        },
+                        gridLines: {
+                            color: 'rgba(233, 159, 62, 0.3)'
+                        }
+                    }]
+                }
+            }
+        });
+    </script>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/665725b39a809f19fb36a1c5/1hv26mhra';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+    <script
+        async>(function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', intercomSettings); } else { var d = document; var i = function () { i.c(arguments) }; i.q = []; i.c = function (args) { i.q.push(args) }; w.Intercom = i; function l() { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/ydh3k3uz'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); } if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })()</script>
+
+    <script src="dist/countup.js"></script>
+    <script async src="dist/app.js"></script>
+    <script src="dist/parallax.js"></script>
 </body>
-<!-- https://2kabhishek.github.io/projects/ -->
+
 </html>
