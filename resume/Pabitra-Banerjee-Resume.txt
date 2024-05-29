@@ -1,0 +1,176 @@
+--------------------------
+         Info
+--------------------------
+Name: Pabitra Banerjee
+Phone: +91-9064485906
+Email: rockstarpabitra2204@gmail.com
+Website: https://pabitrabanerjee.me/
+
+==========================
+         Resume
+==========================
+
+--------------------------
+         About
+--------------------------
+
+Pabitra Banerjee
+Student at Manbhum Mahavidyalaya
+
+Pabitra Banerjee is a Full-Stack AI Engineer with some knowledge of Blockchain Technology and a tech enthusiast. He is the Founder & CEO of MB WEBBER’S, a Software Development company based in Manbazar, Purulia, West Bengal. He is the Founder & CEO of some more companies based on Manbazar, like — Code Explorer, Dev Line Community, etc. He is working actively to spread Science & Technology to the common people. He is very fond of Astrophysics & Mathematics. He writes actively about Astrophysics and latest space missions by all of the space agencies on Universal Space Missions.
+
+--------------------------
+         Skills
+--------------------------
+
+Languages (Listed in descending order):
+- Python
+- HTML
+- CSS/SASS
+- JavaScript (ES7)
+- Typescript
+- VB/VB.NET
+- C#
+- C
+- MIPS Assembly
+- Go
+- Dart
+- C++
+- Solidity
+
+Frameworks / Technologies:
+- .NET
+- Angular
+- React
+- Redux
+- jQuery
+- Bootstrap
+- Apache Tomcat
+- Nginx
+- Redis
+- MongoDB
+- Elastic Search
+- Electron.js
+- Node.js
+- Express
+- Git
+- Android Studio
+- Photoshop
+- Illustrator
+- Heroku
+- FileZilla
+- Webpack
+- Gulp
+- Babel
+
+---------------------------
+    Operating Systems
+---------------------------
+- Windows
+- Linux
+- Mac OSX
+- Chrome OS
+- Android
+
+--------------------------
+     Personal Projects
+--------------------------
+
+1. Interstellar Armada
+   URL: https://pabitrabanerjee.me/Interstellar-Armada/
+   Description: Interstellar Armada: Galactic Ace is a free, Open Source browser-based 3D space combat simulator developed in JavaScript-WebGL by Pabitra Banerjee.
+
+2. Sunday
+   URL: https://sunday-inky.vercel.app/
+   Description: A responsive chatbot app for Chrome and the web built with RESTful API calls to Wikipedia's APIs.
+
+3. Stack-Overflow
+   URL: https://pabitrabanerjee.me/Stack-OverFlow/
+   Description: Developed the frontend of Stack Overflow using HTML, CSS, and JavaScript. It features a responsive design, interactive elements, and a user-friendly interface for an enhanced coding community experience.
+
+4. Pyconda Programming Language
+   URL: https://pyconda.pabitrabanerjee.me/
+   Description: PyConda is a simple, Python-based programming language designed for ease of use and extensibility. With PyConda, you can write and execute code in a straightforward and intuitive manner.
+
+5. Free VPN Finder
+   URL: https://microsoftedge.microsoft.com/addons/detail/free-vpn-server-finder/fkbjnmkkgoelcbbaiabaihimjpfbifkp
+   Description: Developed a Free VPN Finder extension for Microsoft Edge using JavaScript, HTML, and CSS. It utilizes APIs for VPN services, providing users with seamless and secure VPN options directly in their browser.
+
+6. IDX Dark Theme
+   URL: https://marketplace.visualstudio.com/items?itemName=PabitraBanerjee.idx-dark-theme
+   Description: Idx Dark Theme is a stunning dark theme for Visual Studio Code, inspired by Google's IDX design. With vibrant colors and thoughtful design, it enhances coding, boasting 2.8k downloads.
+
+7. Carbon Atom Structure
+   URL: https://pabitrabanerjee.me/Structure-Of-Carbon-Atom/
+   Description: This web view showcases the structure of a carbon atom, using HTML, CSS, and JavaScript. It visually represents atomic components, offering an educational and interactive experience for users.
+
+8. Web Browser
+   URL: https://pabitrabanerjee.me/Web-Browser/
+   Description: Created a beautiful and fully functional web browser using HTML, CSS, and JavaScript. It boasts a sleek design, seamless navigation, and essential browsing features for an optimal user experience.
+
+9. Clash Of Space
+   URL: https://pabitrabanerjee.me/Clash-Of-Space/
+   Description: Clash of Space is a cloned version game of the original Radius Raid of js13kGames (A JavaScript coding competition for HTML5 Game Developers) which is a popular game for kids. A spacecraft shooting game built with HTML5, CSS, JavaScript. It's a desktop version game, so can be played only on desktop/laptop.
+
+10. JS-DSA
+    URL: https://www.npmjs.com/package/adv-dsa
+    Description: JS-DSA is a comprehensive collection of data structures and algorithms implemented in JavaScript. This project is designed to be a helpful resource for developers, students, and anyone interested in learning about data structures and algorithms through practical JavaScript examples.
+
+--------------------------
+        Education
+--------------------------
+
+Manbhum Mahavidyalaya
+B.Sc. Computer Science
+2023 - 2027 (June)
+Overall CGPA: 7.35
+
+Relevant Courses:
+- Computer Fundamentals and Programming using C
+- Data Structures & Algorithms
+- Computer Organization and Computer Architecture
+- Database Management Systems
+- Operating Systems
+- Cloud Computing
+- Cyber Security
+- Artificial Intelligence & Machine Learning
+
+--------------------------
+     Work Experience
+--------------------------
+
+1. MB WEBBER'S
+   Founder & CEO
+   June 2022 - Present
+   - Lead and oversee all aspects of the web development start-up company. Responsibilities include setting the vision and direction, making strategic decisions, managing operations, fostering growth, and ensuring the success of the company.
+
+2. MB WEBBER'S
+   Full Stack Web Developer
+   June 2022 - Present
+   - Responsible for both the frontend and back-end development, handling tasks such as designing user interfaces, writing clean code, integrating databases, and implementing functionalities. Collaborate with the team to understand project requirements, conduct thorough testing and debugging, and ensure the delivery of high-quality, responsive, and scalable web solutions.
+
+3. Code Explorer
+   Founder & CEO
+   August 2022 - Present
+   - Encourage students to learn programming. Teach around 30+ students, free of cost at home. Formed a team of several students, friends, and seniors to work on a Machine Learning & Deep Learning based AI Model.
+
+4. <Dev Line Community />
+   Founder & CEO
+   October 2022 - Present
+   - Build a community for programmers around the homeland. Reached 57 programmers from different places of the home district Purulia, West Bengal, India. Create a platform where all programmers can share knowledge and learn from each other.
+
+5. Craft Space
+   Chief Technological Officer
+   February 2023 - Present
+   - E-Commerce start-up company dealing with different Hand Made Crafts of the districts of West Bengal. Tasks include designing & developing the website, maintaining the website, managing payments, managing products, and continuously developing new features for the website. Currently developing an intelligent chatbot for the website and an android application.
+
+6. Freelance Developer
+   2022 - Present
+   - Worked on a wide range of projects from Windows software to responsive web apps using Python, C++, HTML, CSS, and JavaScript for a worldwide audience (Interstellar Armada for example). Promoted applications with little to no cost by contacting software vendors (CNET, Softpedia, ...) , SEO, and spreading through social media. Assisted users through software issues and troubleshooting remotely.
+
+--------------------------
+ Extra Curricular Activities
+--------------------------
+
+1. Wrote some books on Astrophysics and Programming & Personal Interests.
+2. Created a ton of songs and published them on all platforms.

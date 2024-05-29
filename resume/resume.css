@@ -1,0 +1,161 @@
+body {
+    background: #e7e5e8;
+}
+
+/* GLOBAL */
+.content {
+    margin: 0 auto 1rem;
+    max-width: 90rem;
+}
+
+ a {
+     color: #0f1f5a;
+ }
+
+button {
+    padding: 0;
+}
+
+button a {
+    color: #fff;
+    font-weight: 400;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: .5rem 1.5rem;
+}
+
+button a:hover {
+    color: #fff;
+}
+
+ul {
+    margin: 1rem auto;
+    padding-left: 1rem;
+}
+
+.title + .subtitle {
+    margin-top: -1.55rem;
+}
+
+.icon {
+    margin-right: .5rem;
+}
+
+.resume-group {
+    padding: 0 1rem;
+}
+
+.resume-title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+}
+
+.resume-group .resume-heading {
+    border-left: 3px solid #222;
+    padding-left: 1rem;
+}
+
+.resume-group .resume-heading p {
+    padding-left: 0;
+    font-size: 1rem;
+}
+
+.resume-group p {
+    margin: 1rem auto;
+    padding-left: 1rem;
+}
+
+.resume-group .title {
+    text-transform: uppercase;
+}
+
+.resume-group .subtitle {
+    opacity: .8;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.resume-date {
+    font-size: 1.15rem;
+    margin: 1.25rem auto !important;
+}
+
+.resume-lang {
+    -webkit-box-align: center;
+            align-items: center;
+    background: #f0f1f4;
+    border-radius: .2rem;
+    color: #727e96;
+    display: -ms-inline-flexbox;
+    display: -webkit-inline-box;
+    display: inline-flex;
+    display: -webkit-inline-flex;
+    -ms-flex-align: center;
+    margin: 0.2rem !important;
+    max-width: 100%;
+    padding: .5rem .8rem;
+    font-size: .75rem;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: middle;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: pointer;
+}
+
+/* TOP SECTION */
+#resumeTop {
+    background: #353e48;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #29323c, #353e48);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #29323c, #353e48); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    top: 0;
+    padding: 5rem 1rem 3.5rem;
+}
+
+#titleContainer h3,
+#titleContainer h6 {
+    letter-spacing: .2rem;
+    color: #eeeeef;
+}
+
+#titleContainer h6 {
+    color: #b8b4c5;
+    font-weight: 400;
+    letter-spacing: .15rem;
+}
+
+#contactContainer p {
+    margin: 1rem auto;
+    color: #eeeeef;
+}
+
+#contactContainer a {
+    color: #b8b4c5;
+}
+
+#contactContainer p span {
+    line-height: inherit;
+}
+
+#download {
+    background: linear-gradient(151.05deg, #02ccba 0%, #A951ED 100%);
+}
+
+footer {
+    background: #353e48;
+    background: -webkit-linear-gradient(to bottom, #1a2025, #21262b);
+    background: linear-gradient(to bottom, #1a2025, #21262b);
+}
+
+.dmca-badge {
+    position: absolute;
+}
